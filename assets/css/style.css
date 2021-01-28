@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: auto;
+  height: 90vh;
   background: url("../img/heroo.jpg") top center;
   background-size: cover;
 }
