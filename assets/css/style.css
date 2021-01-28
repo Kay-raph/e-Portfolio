@@ -388,7 +388,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -595,12 +595,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: crimson;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid crimson;
 }
 
 .services .icon i {
