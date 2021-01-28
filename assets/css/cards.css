@@ -104,10 +104,8 @@
       width: 250px;
       height: 180px;
       transition: 0.7s;
-      margin-left: -100px;
     }
     .container .card .face.face1 {
-        margin-left: -100px;
       position: relative;
       background: crimson;
       display: flex;
