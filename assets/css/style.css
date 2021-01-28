@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   background: url("../img/heroo.jpg") top center;
   background-size: cover;
 }
@@ -222,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  height: 100vh;
 }
 
 #hero .hero-container {
