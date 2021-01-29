@@ -115,7 +115,7 @@
       position: relative;
       margin: 5px;
       display: inline-block;
-      margin-left: 20px;
+      margin-left: 50px;
       
     }
     .container .card .face {
@@ -136,14 +136,6 @@
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    .container .card {
-      z-index: 1;
-      position: relative;
-      margin: 5px;
-      display: inline-block;
-      margin-left: 20px;
-      
-    }
     .container .card .face {
       width: 300px;
       height: 200px;
