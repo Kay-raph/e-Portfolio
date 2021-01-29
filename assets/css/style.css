@@ -71,9 +71,9 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 180px;
+  width: 200px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 50%;
   border: 8px solid white;
 }
 
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/heroo.jpg") top center;
+  background: url("../img/clint.jpg") top center;
   background-size: cover;
 }
 
@@ -222,7 +222,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
-  height: 100vh;
 }
 
 #hero .hero-container {
@@ -255,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment: cover;
   }
 }
 
