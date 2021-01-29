@@ -8,7 +8,7 @@
     position: relative;
     margin: 5px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     
   }
   
@@ -110,14 +110,6 @@
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .container .card {
-      z-index: 1;
-      position: relative;
-      margin: 5px;
-      display: inline-block;
-      margin-left: 50px;
-      
-    }
     .container .card .face {
       width: 250px;
       height: 180px;
