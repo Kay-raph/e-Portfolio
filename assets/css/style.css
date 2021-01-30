@@ -215,8 +215,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: url("../img/clint.jpg");
+  background: url("../img/clint.jpg") top center;
   background-size: cover;
+  background-attachment: fixed;
   position: absolute;
   bottom: 0;
   top: 0;
