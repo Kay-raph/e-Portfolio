@@ -215,7 +215,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(37, 177, 177, 0.5);
+  background: url("../img/clint.jpg");
+  background-size: cover;
   position: absolute;
   bottom: 0;
   top: 0;
