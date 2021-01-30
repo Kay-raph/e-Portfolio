@@ -8,10 +8,9 @@
     bottom: 0px;
     z-index: 0;
 }
-/* .cb-slideshow:after {
+.cb-slideshow:after {
     content: '';
-    background: transparent url(../img/pattern.png) repeat top left;
-} */
+}
 .cb-slideshow span {
     width: 100%;
     height: 100%;
@@ -30,11 +29,17 @@
     -ms-animation: imageAnimation 72s linear infinite 0s;
     animation: imageAnimation 72s linear infinite 0s;
 }
-.cb-slideshow #n1 { background-image: url(../img/cpu.jpg);
+.cb-slideshow #n1 { background-image: url(../img/giff/giff.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
  }
 .cb-slideshow #n2 {
-    background-image: url(../img/clint.jpg);
+    background-image: url(../img/giff/giff1.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
@@ -43,7 +48,10 @@
     animation-delay: 6s;
 }
 .cb-slideshow #n3 {
-    background-image: url(../img/hd.jpg);
+    background-image: url(../img/giff/giff2.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
@@ -52,7 +60,10 @@
     animation-delay: 12s;
 }
 .cb-slideshow #n4 {
-    background-image: url(../img/best.jpg);
+    background-image: url(../img/giff/giff3.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
@@ -61,7 +72,10 @@
     animation-delay: 18s;
 }
 .cb-slideshow #n5 {
-    background-image: url(../img/drk.jpg);
+    background-image: url(../img/giff/giff4.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
@@ -70,7 +84,10 @@
     animation-delay: 24s;
 }
 .cb-slideshow #n6{
-    background-image: url(../img/awe.jpg);
+    background-image: url(../img/giff/giff.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
@@ -79,7 +96,10 @@
     animation-delay: 30s;
 }
 .cb-slideshow #n7{
-    background-image: url(../img/key.jpg);
+    background-image: url(../img/giff/giff1.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 36s;
     -moz-animation-delay: 36s;
@@ -88,7 +108,10 @@
     animation-delay: 36s;
 }
 .cb-slideshow #n8{
-    background-image: url(../img/qwe.jpg);
+    background-image: url(../img/giff/giff2.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 42s;
     -moz-animation-delay: 42s;
@@ -97,7 +120,10 @@
     animation-delay: 42s;
 }
 .cb-slideshow #n9{
-    background-image: url(../img/keyboard.jpg);
+    background-image: url(../img/giff/giff3.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 48s;
     -moz-animation-delay: 48s;
@@ -106,7 +132,10 @@
     animation-delay: 48s;
 }
 .cb-slideshow #n10{
-    background-image: url(../img/mac.jpg);
+    background-image: url(../img/giff/giff4.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 54s;
     -moz-animation-delay: 54s;
@@ -115,7 +144,10 @@
     animation-delay: 54s;
 }
 .cb-slideshow #n11{
-    background-image: url(../img/screen.jpg);
+    background-image: url(../img/giff/giff.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 60s;
     -moz-animation-delay: 60s;
@@ -124,7 +156,10 @@
     animation-delay: 60s;
 }
 .cb-slideshow #n12{
-    background-image: url(../img/screen1.jpg);
+    background-image: url(../img/giff/giff1.gif) center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 80%;
     height: 100%;
     -webkit-animation-delay: 66s;
     -moz-animation-delay: 66s;
@@ -409,7 +444,7 @@
 	.cb-slideshow:after {
 		
 		content: '';
-		background: transparent url(../img/pattern.png) repeat top left;
+
 	}
    }
    /* IPHONE 6.7.8 */
@@ -421,7 +456,7 @@
 		.cb-slideshow:after {
 			
 			content: '';
-			background: transparent url(../img/pattern.png) repeat top left;
+	
 		}
 	}
    /* IPHONE 6.7.8 plus*/
@@ -433,6 +468,6 @@
 		.cb-slideshow:after {
 			
 			content: '';
-			background: transparent url(../img/pattern.png) repeat top left;
+	
 		}
 	}
