@@ -71,14 +71,14 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 200px;
+  width: 160px;
   height: auto;
   border-radius: 50%;
-  border: 8px solid white;
+  border: 5px solid white;
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 32px;
   margin: 0;
   padding: 0;
   font-weight: 800;
@@ -209,15 +209,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/clint.jpg") top center;
+  background: url("../img/giff.gif");
   background-size: cover;
 }
 
 #hero:before {
   content: "";
-  background: url("../img/clint.jpg") top center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -601,8 +599,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   transition: 0.5s;
 }
