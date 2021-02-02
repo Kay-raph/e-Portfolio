@@ -71,14 +71,14 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 160px;
+  width: 140px;
   height: auto;
   border-radius: 50%;
   border: 5px solid white;
 }
 
 #header .profile h1 {
-  font-size: 32px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   font-weight: 800;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 12px;
   display: inline-block;
   background: #a8a9b4;
   color: #fff;
@@ -102,8 +102,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 26px;
+  height: 26px;
   transition: 0.3s;
 }
 
@@ -1057,7 +1057,7 @@ section {
 #footer {
   padding: 15px;
   color: #f4f6fd;
-  font-size: 14px;
+  font-size: 12px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -1073,7 +1073,7 @@ section {
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
   color: #eaebf0;
 }
 
